@@ -1,0 +1,344 @@
+/*general styling*/
+
+body {
+	background-color: white;
+	margin: 0;
+}
+
+table {
+	background-color: white;
+	margin: 16px auto 16px auto;
+	padding: 16px;
+	box-shadow: 0px 0px 4px black;
+	border-radius: 4px;
+}
+
+
+/*navbar styling*/
+
+.pageHead {
+	background-color: #9c1535;
+	color: #c1c1c1;
+	padding: 5px;
+	text-align: center;
+}
+
+.navbar {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #9c1535;
+}
+
+.centerbutton {
+	text-align: center;
+}
+
+
+/* Navbar container */
+
+.navbar {
+	overflow: hidden;
+	background-color: #9c1535;
+	font-family: Arial;
+}
+
+
+/* Links inside the navbar */
+
+.navbar a {
+	display: inline-block;
+	float: none;
+	font-size: 16px;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+
+/* The dropdown container */
+
+.dropdown {
+	display: inline-block;
+	float: none;
+	font-size: 16px;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+
+/* Dropdown button */
+
+.dropdown .dropbtn {
+	font-size: 16px;
+	border: none;
+	outline: none;
+	color: white;
+	padding: 14px 16px;
+	background-color: inherit;
+	font-family: inherit;
+	/* Important for vertical align on mobile phones */
+	margin: 0;
+	/* Important for vertical align on mobile phones */
+}
+
+
+/* Add a red background color to navbar links on hover */
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+	background-color: #700b23;
+}
+
+
+/* Dropdown content (hidden by default) */
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+}
+
+
+/* Links inside the dropdown */
+
+.dropdown-content a {
+	float: none;
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+
+
+/* Add a grey background color to dropdown links on hover */
+
+.dropdown-content a:hover {
+	background-color: #ddd;
+}
+
+
+/* Show the dropdown menu on hover */
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+#indexLink {
+	text-decoration: none;
+	color: #c1c1c1
+}
+
+li a:hover {
+	background-color: #7a1029;
+}
+
+.login {
+	float: right;
+}
+
+.navbar .activePage {
+	color: #c1c1c1;
+}
+
+.navbar .dropdown .activePage {
+	color: #c1c1c1;
+}
+
+
+/*about Style*/
+
+.aboutBody {
+	color: #383838;
+	font-weight: 100;
+	width: 50%;
+	align-items: center;
+	margin: auto;
+	margin-bottom: 2%;
+	text-align: center;
+	font-size: 15pt;
+}
+
+.aboutBodyHeader {
+	color: #7a1029;
+	font-weight: 500;
+	font-size: 25pt;
+	width: 100%;
+	text-align: center;
+}
+
+
+/*Reservation Page Styling*/
+
+#laundryMap {
+	display: block;
+	margin: auto;
+	width: 25%;
+	height: auto;
+}
+
+.reserveButtons div {
+	display: block;
+	margin: auto;
+	width: 35%;
+}
+
+table.timetables {
+	/*use this to modify the reservation timetables further*/
+	text-align: center;
+}
+
+table.timetables td {
+	height: 33px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-bottom: thin solid #CCCCCC;
+	border-bottom-color: #CCCCCC;
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+}
+
+.isReserved {
+	background-color: rgb(197, 32, 32);
+	color: white;
+}
+
+
+/*homepage styling*/
+
+table.padTab {
+	box-shadow: none;
+	border-radius: 0px;
+	border: none;
+}
+
+.column {
+	float: left;
+	text-align: center;
+	padding-left: 20px;
+}
+
+.pad {
+	width: 37%;
+	border-collapse: collapse;
+	border: none;
+	border-radius: 0px;
+	box-shadow: none;
+}
+
+.washer {
+	width: 10%
+}
+
+.dryer {
+	width: 10%
+}
+
+.homeBody {
+	padding: 10px;
+	color: #7a1029;
+	text-align: center;
+}
+
+
+/*Login Styling*/
+
+.button {
+	background-color: #9c1535;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	-webkit-transition-duration: 0.4s;
+	/* Safari */
+	transition-duration: 0.4s;
+}
+
+.button:hover {
+	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.center {
+	margin: auto;
+	width: 25%;
+	border: 3px solid #9c1535;
+	padding: 5px;
+	text-align: center;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+h2 {
+	text-align: center;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+h1 {
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+.notReg {
+	font-size: 12px;
+}
+
+
+/* Responsive CSS */
+
+@media only screen and (max-width: 399px) {
+	/* Phone */
+	.pageHead {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+	table {
+		display: flex;
+		flex-wrap: wrap;
+		overflow: auto;
+	}
+	thead {
+		display: flex;
+		flex-wrap: wrap;
+		overflow: auto;
+	}
+	.navbar {
+		display: flex;
+		flex-direction: column;
+	}
+	p {
+		text-align: center;
+	}
+	#laundryMap {
+		width: 100%;
+		height: auto;
+	}
+}
+
+@media only screen and (min-width: 400px) and (max-width: 998px) {
+	/* Tablet */
+	.pageHead {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+	table {
+		display: flex;
+		flex-wrap: wrap;
+		overflow: auto;
+	}
+	p {
+		text-align: center;
+	}
+}

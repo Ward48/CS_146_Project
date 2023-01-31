@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Jonas reservation form</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <!--Header & Navbar-->
+        <div class="pageHead">
+            <img src="https://stevensducks.com/favicon.ico" style="margin:auto;width:110px;height:110px;" alt="Stevens duck logo">
+        <h1> &nbsp; <a href="index.html" id="indexLink">Duck Laundry</a></h1>
+        <div class="navbar">
+                <a href="login.html">Login</a>
+                <a href="about.html">About Us</a>
+                <div class="dropdown">
+                  <button class="dropbtn">Reserve a Machine
+                    <i class="fa fa-caret-down"></i>
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="reserveJonas.html">Jonas</a>
+                    <a href="reserveHumphreys.html">Humphreys</a>
+                  </div>
+                </div>
+              </div>
+        </div>
+
+       <!--Page Content-->
+       <form action="reserveJonas.html">
+        <fieldset>
+           <legend>Jonas Hall</legend>
+           <p>
+                <label>Select Machine</label><br/>
+                <input type="radio" name="machine" value="jWasher1"> Washer 1<br>
+                <input type="radio" name="machine" value="jWasher2"> Washer 2<br>
+                <input type="radio" name="machine" value="jWasher3"> Washer 3<br>
+                <input type="radio" name="machine" value="jWasher4"> Washer 4<br>
+                <input type="radio" name="machine" value="jDryer1"> Dryer 1<br>
+                <input type="radio" name="machine" value="jDryer2"> Dryer 2<br>
+                <input type="radio" name="machine" value="jDryer3"> Dryer 3<br> 
+                <input type="radio" name="machine" value="jDryer4"> Dryer 4<br> 
+                <input type="radio" name="machine" value="jDryer5"> Dryer 5<br> 
+
+              <label>Select Time</label>
+              <select id = "jTime">
+                <option value = "j1">12:00AM</option>
+                <option value = "j2">1:00AM</option>
+                <option value = "j3">2:00AM</option>
+                <option value = "j4">3:00AM</option>
+                <option value = "j5">4:00AM</option>
+                <option value = "j6">5:00AM</option>
+                <option value = "j7">6:00AM</option>
+                <option value = "j8">7:00AM</option>
+                <option value = "j9">8:00AM</option>
+                <option value = "j10">9:00AM</option>
+                <option value = "j11">10:00AM</option>
+                <option value = "j12">11:00AM</option>
+                <option value = "j13">12:00PM</option>
+                <option value = "j14">1:00PM</option>
+                <option value = "j15">2:00PM</option>
+                <option value = "j16">3:00PM</option>
+                <option value = "j17">4:00PM</option>
+                <option value = "j18">5:00PM</option>
+                <option value = "j19">6:00PM</option>
+                <option value = "j20">7:00PM</option>
+                <option value = "j21">8:00PM</option>
+                <option value = "j22">9:00PM</option>
+                <option value = "j23">10:00PM</option>
+                <option value = "j24">11:00PM</option>
+              </select>
+           </p>
+           <input type="submit" value="Reserve" class="button" onclick="j_Reserve()" id="jReserver">
+
+        </fieldset>
+     </form>
+     <script src="script.js"></script>
+     <script src="jScript.js"></script> 
+    </body>
+</html>

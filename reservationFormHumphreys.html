@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Humphreys reservation form</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="hidth=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <!--Header & Navbar-->
+        <div class="pageHead">
+            <img src="https://stevensducks.com/favicon.ico" style="margin:auto;width:110px;height:110px;" alt="Stevens duck logo">
+        <h1> &nbsp; <a href="index.html" id="indexLink">Duck Laundry</a></h1>
+        <div class="navbar">
+                <a href="login.html">Login</a>
+                <a href="about.html">About Us</a>
+                <div class="dropdown">
+                  <button class="dropbtn">Reserve a Machine
+                    <i class="fa fa-caret-down"></i>
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="reserveJonas.html">Jonas</a>
+                    <a href="reserveHumphreys.html">Humphreys</a>
+                  </div>
+                </div>
+              </div>
+        </div>
+
+       <!--Page Content-->
+       <form id="humphbutton" action="reserveHumphreys.html">
+        <fieldset>
+           <legend>Humphreys Hall</legend>
+           <p>
+
+            <input type="radio" name="machine" value="hWasher1"> Washer 1<br>
+            <input type="radio" name="machine" value="hWasher2"> Washer 2<br>
+            <input type="radio" name="machine" value="hWasher3"> Washer 3<br>
+            <input type="radio" name="machine" value="hWasher4"> Washer 4<br>
+            <input type="radio" name="machine" value="hDryer1"> Dryer 1<br>
+            <input type="radio" name="machine" value="hDryer2"> Dryer 2<br>
+            <input type="radio" name="machine" value="hDryer3"> Dryer 3<br>
+            <input type="radio" name="machine" value="hDryer4"> Dryer 4<br>      
+
+              <label>Select Time</label>
+              <select id = "hTime">
+                <option value = "h1">12:00AM</option>
+                <option value = "h2">1:00AM</option>
+                <option value = "h3">2:00AM</option>
+                <option value = "h4">3:00AM</option>
+                <option value = "h5">4:00AM</option>
+                <option value = "h6">5:00AM</option>
+                <option value = "h7">6:00AM</option>
+                <option value = "h8">7:00AM</option>
+                <option value = "h9">8:00AM</option>
+                <option value = "h10">9:00AM</option>
+                <option value = "h11">10:00AM</option>
+                <option value = "h12">11:00AM</option>
+                <option value = "h13">12:00PM</option>
+                <option value = "h14">1:00PM</option>
+                <option value = "h15">2:00PM</option>
+                <option value = "h16">3:00PM</option>
+                <option value = "h17">4:00PM</option>
+                <option value = "h18">5:00PM</option>
+                <option value = "h19">6:00PM</option>
+                <option value = "h20">7:00PM</option>
+                <option value = "h21">8:00PM</option>
+                <option value = "h22">9:00PM</option>
+                <option value = "h23">10:00PM</option>
+                <option value = "h24">11:00PM</option>
+              </select>
+           </p>
+           <input type="submit" value="Reserve" onClick="h_Reserve()" class="button" id="hReserver">
+
+        </fieldset>
+     </form>
+     <script src="script.js"></script>
+     <script src="hScript.js"></script>
+    </body>
+</html>

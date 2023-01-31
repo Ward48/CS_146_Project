@@ -1,0 +1,115 @@
+<!--Site made by: Franklin Shack, Joseph Vasallo, Edward Chung, and Christopher Ward
+    We pledge our honor that we have abided by the Stevens Honor System.-->
+<!--
+    Site breakdown as follows: 
+
+    HTML/CSS
+        Homepage: Franklin Shack
+        Navbar: Franklin Shack and Edward Chung
+        Login Page: Edward Chung
+        Reservation Pages: Franklin Shack and Christopher Ward
+        About Page: Joseph Vasallo
+        Desktop/Tablet/Mobile testing: Christopher Ward
+        Overall Style: Joseph Vasallo
+
+    JS:
+        Validation/Bug Testing: Joseph Vasallo
+        Login Script & Form Setup: Edward Chung
+        Login localStorage Integration: Franklin Shack
+        Table Updater: Franklin Shack and Chris Ward
+        
+-->
+
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Laundry Machine Reservations</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <!--Header & Navbar-->
+        <div class="pageHead">
+                <img src="https://stevensducks.com/favicon.ico" style="margin:auto;width:110px;height:110px;" alt="Stevens duck logo">
+            <h1> &nbsp; <a href="index.html" id="indexLink">Duck Laundry</a></h1>
+            <div class="navbar">
+                    <a href="login.html" id="loginDropdownButton">Login</a>
+                    <a href="about.html">About Us</a>
+                    <div class="dropdown">
+                      <button class="dropbtn">Reserve a Machine
+                        <i class="fa fa-caret-down"></i>
+                      </button>
+                      <div class="dropdown-content">
+                        <a href="reserveJonas.html">Jonas</a>
+                        <a href="reserveHumphreys.html">Humphreys</a>
+                      </div>
+                    </div>
+                  </div>
+        </div>
+
+        <!--Page Content-->
+        <div class="homeBody">
+            <h1># of Machines</h1>
+            <h2>Jonas Laundry Room</h2>
+            <div class="row">
+                    <div class="column pad"><table class="padTab"></table></div>   
+                <div class="column washer">
+                    <table>
+                        <tr>
+                            <td>Washers</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="column dryer">
+                    <table>
+                        <tr>
+                            <td>Dryers</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <!--Some linebreaks for site structure-->
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+
+            <h2>Humphreys Laundry Room</h2>
+            <div class="row">
+                <div class="column pad"><table class="padTab"></table></div>     
+                <div class="column washer"> 
+                    <table>
+                        <tr>
+                            <td>Washers</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="column dryer">
+                    <table>
+                        <tr>
+                            <td>Dryers</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                        </tr>
+                    </table>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script> 
+    </body>
+</html>
